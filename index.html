@@ -95,8 +95,11 @@
   <section id="about">
     <div class="container">
       <div class="about-grid">
-        <div class="about-img">
-          <iframe src="https://www.instagram.com/reel/DQRG8BkEtSx/embed" style="width:100%; max-width:400px; height:500px; border:none; border-radius:12px; display:block; margin:0 auto;" allowfullscreen></iframe>
+        <div class="about-img" style="position:relative; cursor:pointer;" onclick="toggleVideoSound(this)">
+          <video autoplay muted loop playsinline style="width:100%; max-width:400px; border-radius:12px; display:block; margin:0 auto;">
+            <source src="images/spark-intro.mp4" type="video/mp4">
+          </video>
+          <div class="video-sound-hint">Click to unmute</div>
         </div>
         <div class="about-text">
           <p class="section-tag">ABOUT SPARK</p>
@@ -123,30 +126,30 @@
       <p class="section-tag center">WHAT I DO</p>
       <h2 class="center">One Emcee. <span class="gold">Every Event.</span></h2>
       <div class="services-grid-v2">
-        <a href="#contact" class="service-photo-card" style="background-image:url('images/wedding.jpg');">
+        <div class="service-photo-card" style="background-image:url('images/wedding-new.jpg');">
           <div class="service-photo-overlay"></div>
           <h3>WEDDINGS</h3>
-        </a>
-        <a href="#contact" class="service-photo-card" style="background-image:url('images/corporate.jpg');">
+        </div>
+        <div class="service-photo-card" style="background-image:url('images/corporate.jpg');">
           <div class="service-photo-overlay"></div>
           <h3>CORPORATE EVENTS</h3>
-        </a>
-        <a href="#contact" class="service-photo-card" style="background-image:url('images/sports.jpg');">
+        </div>
+        <div class="service-photo-card" style="background-image:url('images/sports.jpg');">
           <div class="service-photo-overlay"></div>
           <h3>SPORTS EVENTS</h3>
-        </a>
-        <a href="#contact" class="service-photo-card" style="background-image:url('images/community-hosting.jpg');">
+        </div>
+        <div class="service-photo-card" style="background-image:url('images/community-new.jpg');">
           <div class="service-photo-overlay"></div>
           <h3>COMMUNITY</h3>
-        </a>
-        <a href="#contact" class="service-photo-card" style="background-image:url('images/crowd-energy.jpg'); background-position:center 75%;">
+        </div>
+        <div class="service-photo-card" style="background-image:url('images/roadshow-new.jpg'); background-position:center 30%;">
           <div class="service-photo-overlay"></div>
           <h3>ROAD SHOWS</h3>
-        </a>
-        <a href="#contact" class="service-photo-card" style="background-image:url('images/crowd-selfie.jpg');">
+        </div>
+        <div class="service-photo-card" style="background-image:url('images/anyevent-new.jpg'); background-position:center 40%;">
           <div class="service-photo-overlay"></div>
           <h3>ANY EVENT</h3>
-        </a>
+        </div>
       </div>
       <div class="center" style="margin-top: 40px;">
         <a href="#contact" class="btn btn-gold">Book Me Now</a>
