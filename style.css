@@ -74,6 +74,13 @@ p { margin-bottom: 14px; color: #555; }
   padding: 10px 22px !important; border-radius: 6px; font-weight: 600 !important;
 }
 .nav-cta:hover { background: #e6951a !important; }
+.lang-toggle {
+  background: transparent; border: 1px solid rgba(255,255,255,0.3);
+  color: rgba(255,255,255,0.8); padding: 6px 14px; border-radius: 4px;
+  font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.2s;
+  letter-spacing: 0.5px; font-family: 'Inter', sans-serif;
+}
+.lang-toggle:hover { border-color: #F5A623; color: #F5A623; }
 .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
 .nav-toggle span { display: block; width: 24px; height: 2px; background: white; margin: 5px 0; transition: 0.3s; }
 

@@ -20,12 +20,13 @@
     <div class="nav-inner">
       <a href="#" class="nav-logo">EMCEE <span>SPARK</span></a>
       <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#highlights">Highlights</a>
-        <a href="#reviews">Reviews</a>
-        <a href="#contact" class="nav-cta">Book Spark</a>
+        <a href="#about" data-i18n="nav-about">About</a>
+        <a href="#services" data-i18n="nav-services">Services</a>
+        <a href="#highlights" data-i18n="nav-highlights">Highlights</a>
+        <a href="#reviews" data-i18n="nav-reviews">Reviews</a>
+        <a href="#contact" class="nav-cta" data-i18n="nav-cta">Book Spark</a>
       </div>
+      <button class="lang-toggle" onclick="toggleLanguage()">中文</button>
       <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
         <span></span><span></span><span></span>
       </button>
@@ -37,32 +38,32 @@
     <div class="hero-bg"></div>
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <p class="hero-tag">BILINGUAL EMCEE · EVERY STAGE · EVERY CROWD</p>
-      <h1>Every Event<br>Deserves a <span class="gold">Spark</span></h1>
-      <p class="hero-sub">Weddings. Corporate. Sports. Community. Whatever the stage, I'll bring the energy.</p>
+      <p class="hero-tag" data-i18n="hero-tag">BILINGUAL EMCEE · EVERY STAGE · EVERY CROWD</p>
+      <h1 data-i18n-html="hero-h1">Every Event<br>Deserves a <span class="gold">Spark</span></h1>
+      <p class="hero-sub" data-i18n="hero-sub">Weddings. Corporate. Sports. Community. Whatever the stage, I'll bring the energy.</p>
       <div class="hero-btns">
-        <a href="#contact" class="btn btn-gold">Book Me Now</a>
-        <a href="#highlights" class="btn btn-outline">Watch Highlights</a>
+        <a href="#contact" class="btn btn-gold" data-i18n="btn-book">Book Me Now</a>
+        <a href="#highlights" class="btn btn-outline" data-i18n="hero-btn-highlights">Watch Highlights</a>
       </div>
       <div class="hero-stats">
         <div class="stat">
           <span class="stat-num" data-target="2" data-suffix="+">0+</span>
-          <span class="stat-label">Years Hosting</span>
+          <span class="stat-label" data-i18n="stat-years">Years Hosting</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat">
           <span class="stat-num" data-target="150" data-suffix="+">0+</span>
-          <span class="stat-label">Events</span>
+          <span class="stat-label" data-i18n="stat-events">Events</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat">
           <span class="stat-num">EN/华</span>
-          <span class="stat-label">Bilingual</span>
+          <span class="stat-label" data-i18n="stat-bilingual">Bilingual</span>
         </div>
       </div>
     </div>
     <div class="scroll-indicator">
-      <span>Scroll</span>
+      <span data-i18n="scroll">Scroll</span>
       <div class="scroll-line"></div>
     </div>
   </section>
@@ -71,7 +72,7 @@
   <!-- TRUSTED BY -->
   <section id="trusted-by">
     <div class="container">
-      <p class="trusted-label">TRUSTED BY LEADING BRANDS</p>
+      <p class="trusted-label" data-i18n="trusted-label">TRUSTED BY LEADING BRANDS</p>
       <div class="trusted-strip">
         <span class="trusted-item"><img src="images/logos/tiktok.svg" alt="TikTok" class="trusted-logo"></span>
         <span class="trusted-item"><img src="images/logos/toyota.png" alt="Toyota" class="trusted-logo"></span>
@@ -99,21 +100,21 @@
           <video autoplay muted loop playsinline style="width:100%; max-width:400px; border-radius:12px; display:block; margin:0 auto;">
             <source src="images/spark-intro.mp4" type="video/mp4">
           </video>
-          <div class="video-sound-hint">Click to unmute</div>
+          <div class="video-sound-hint" data-i18n="unmute">Click to unmute</div>
         </div>
         <div class="about-text">
-          <p class="section-tag">ABOUT SPARK</p>
-          <h2>Passionate. Energetic.<br><span class="gold">Up For Anything.</span></h2>
-          <p>Hey, I'm Spark, a bilingual emcee based in Singapore. Fluent in both English and Mandarin, I bridge cultures, connect generations, and bring every room together.</p>
-          <p>I don't just host events, I live for them. Whether it's a 500-person corporate gala or an intimate wedding dinner, I pour the same passion, energy, and dedication into every single one. No half measures. Ever.</p>
-          <p>I'm not just entertainment, I'm your event partner. I'll put in the work before, during, and after to make sure your event hits every mark.</p>
+          <p class="section-tag" data-i18n="about-tag">ABOUT SPARK</p>
+          <h2 data-i18n-html="about-h2">Passionate. Energetic.<br><span class="gold">Up For Anything.</span></h2>
+          <p data-i18n="about-p1">Hey, I'm Spark, a bilingual emcee based in Singapore. Fluent in both English and Mandarin, I bridge cultures, connect generations, and bring every room together.</p>
+          <p data-i18n="about-p2">I don't just host events, I live for them. Whether it's a 500-person corporate gala or an intimate wedding dinner, I pour the same passion, energy, and dedication into every single one. No half measures. Ever.</p>
+          <p data-i18n="about-p3">I'm not just entertainment, I'm your event partner. I'll put in the work before, during, and after to make sure your event hits every mark.</p>
           <div class="about-traits">
-            <span class="trait">Bilingual EN/华语</span>
-            <span class="trait">High Energy</span>
-            <span class="trait">Adaptable</span>
-            <span class="trait">Professional</span>
-            <span class="trait">Quick-Witted</span>
-            <span class="trait">Audience-Focused</span>
+            <span class="trait" data-i18n="trait-bilingual">Bilingual EN/华语</span>
+            <span class="trait" data-i18n="trait-energy">High Energy</span>
+            <span class="trait" data-i18n="trait-adaptable">Adaptable</span>
+            <span class="trait" data-i18n="trait-professional">Professional</span>
+            <span class="trait" data-i18n="trait-witty">Quick-Witted</span>
+            <span class="trait" data-i18n="trait-audience">Audience-Focused</span>
           </div>
         </div>
       </div>
@@ -123,36 +124,36 @@
   <!-- SERVICES -->
   <section id="services">
     <div class="container">
-      <p class="section-tag center">WHAT I DO</p>
-      <h2 class="center">One Emcee. <span class="gold">Every Event.</span></h2>
+      <p class="section-tag center" data-i18n="services-tag">WHAT I DO</p>
+      <h2 class="center" data-i18n-html="services-h2">One Emcee. <span class="gold">Every Event.</span></h2>
       <div class="services-grid-v2">
         <div class="service-photo-card" style="background-image:url('images/wedding-new.jpg');">
           <div class="service-photo-overlay"></div>
-          <h3>WEDDINGS</h3>
+          <h3 data-i18n="svc-weddings">WEDDINGS</h3>
         </div>
         <div class="service-photo-card" style="background-image:url('images/corporate.jpg');">
           <div class="service-photo-overlay"></div>
-          <h3>CORPORATE EVENTS</h3>
+          <h3 data-i18n="svc-corporate">CORPORATE EVENTS</h3>
         </div>
         <div class="service-photo-card" style="background-image:url('images/sports.jpg');">
           <div class="service-photo-overlay"></div>
-          <h3>SPORTS EVENTS</h3>
+          <h3 data-i18n="svc-sports">SPORTS EVENTS</h3>
         </div>
         <div class="service-photo-card" style="background-image:url('images/community-new.jpg');">
           <div class="service-photo-overlay"></div>
-          <h3>COMMUNITY</h3>
+          <h3 data-i18n="svc-community">COMMUNITY</h3>
         </div>
         <div class="service-photo-card" style="background-image:url('images/roadshow-new.jpg'); background-position:center 30%;">
           <div class="service-photo-overlay"></div>
-          <h3>ROAD SHOWS</h3>
+          <h3 data-i18n="svc-roadshows">ROAD SHOWS</h3>
         </div>
         <div class="service-photo-card" style="background-image:url('images/anyevent-new.jpg'); background-position:center 40%;">
           <div class="service-photo-overlay"></div>
-          <h3>ANY EVENT</h3>
+          <h3 data-i18n="svc-anyevent">ANY EVENT</h3>
         </div>
       </div>
       <div class="center" style="margin-top: 40px;">
-        <a href="#contact" class="btn btn-gold">Book Me Now</a>
+        <a href="#contact" class="btn btn-gold" data-i18n="btn-book">Book Me Now</a>
       </div>
     </div>
   </section>
@@ -160,16 +161,16 @@
   <!-- HIGHLIGHTS -->
   <section id="highlights">
     <div class="container">
-      <p class="section-tag center">HIGHLIGHTS</p>
-      <h2 class="center">See Spark <span class="gold">In Action</span></h2>
-      <p class="section-sub center">Don't take my word for it, watch and see.</p>
+      <p class="section-tag center" data-i18n="highlights-tag">HIGHLIGHTS</p>
+      <h2 class="center" data-i18n-html="highlights-h2">See Spark <span class="gold">In Action</span></h2>
+      <p class="section-sub center" data-i18n="highlights-sub">Don't take my word for it, watch and see.</p>
       <div class="highlights-grid">
         <!-- Wedding video - autoplay muted, click to unmute -->
         <div style="grid-column:1/-1; position:relative; cursor:pointer;" onclick="toggleVideoSound(this)">
           <video autoplay muted loop playsinline style="width:100%; display:block; border-radius:0;">
             <source src="images/wedding-video.mp4" type="video/mp4">
           </video>
-          <div class="video-sound-hint">Click to unmute</div>
+          <div class="video-sound-hint" data-i18n="unmute">Click to unmute</div>
         </div>
         <!-- Row: Wedding dab + Sports -->
         <div class="highlight-card half">
@@ -202,8 +203,8 @@
         </div>
       </div>
       <div class="center" style="margin-top: 30px; display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
-        <a href="https://www.instagram.com/spark1869" target="_blank" class="btn btn-outline">See More on Instagram →</a>
-        <a href="#contact" class="btn btn-gold">Book Me Now</a>
+        <a href="https://www.instagram.com/spark1869" target="_blank" class="btn btn-outline" data-i18n="btn-instagram">See More on Instagram →</a>
+        <a href="#contact" class="btn btn-gold" data-i18n="btn-book">Book Me Now</a>
       </div>
     </div>
   </section>
@@ -211,8 +212,8 @@
   <!-- REVIEWS -->
   <section id="reviews">
     <div class="container">
-      <p class="section-tag center">REVIEWS</p>
-      <h2 class="center">What Clients <span class="gold">Say</span></h2>
+      <p class="section-tag center" data-i18n="reviews-tag">REVIEWS</p>
+      <h2 class="center" data-i18n-html="reviews-h2">What Clients <span class="gold">Say</span></h2>
       <div class="reviews-grid">
         <div class="review-card">
           <div class="stars">★★★★★</div>
@@ -231,8 +232,8 @@
         </div>
       </div>
       <div class="center" style="margin-top: 30px; display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
-        <a href="https://g.page/r/CRgaKqF1KRUnEAE/review" target="_blank" class="btn btn-outline">Read All Google Reviews →</a>
-        <a href="#contact" class="btn btn-gold">Book Me Now</a>
+        <a href="https://g.page/r/CRgaKqF1KRUnEAE/review" target="_blank" class="btn btn-outline" data-i18n="btn-google-reviews">Read All Google Reviews →</a>
+        <a href="#contact" class="btn btn-gold" data-i18n="btn-book">Book Me Now</a>
       </div>
     </div>
   </section>
@@ -245,11 +246,11 @@
           <div style="display:flex; align-items:flex-start; gap:24px;">
             <img src="images/spark-portrait.jpg" alt="Spark — Emcee" style="width:180px; height:180px; object-fit:cover; object-position:center 20%; border-radius:50%; border:3px solid rgba(245,166,35,0.3); flex-shrink:0;">
             <div>
-              <p class="section-tag" style="margin-bottom:8px;">LET'S WORK TOGETHER</p>
-              <h2 style="margin-bottom:14px;">Ready to <span class="gold">Ignite</span><br>Your Event?</h2>
+              <p class="section-tag" style="margin-bottom:8px;" data-i18n="contact-tag">LET'S WORK TOGETHER</p>
+              <h2 style="margin-bottom:14px;" data-i18n-html="contact-h2">Ready to <span class="gold">Ignite</span><br>Your Event?</h2>
             </div>
           </div>
-          <p>Tell me about your event and I'll get back to you within 24 hours. No commitment, let's just chat first.</p>
+          <p data-i18n="contact-desc">Tell me about your event and I'll get back to you within 24 hours. No commitment, let's just chat first.</p>
           <div class="contact-info">
             <a href="https://www.instagram.com/spark1869" target="_blank" class="contact-link">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="#F5A623" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
@@ -257,46 +258,46 @@
             </a>
             <a href="https://wa.me/6588910261" class="contact-link">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="#F5A623" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-              WhatsApp Me
+              <span data-i18n="contact-wa">WhatsApp Me</span>
             </a>
           </div>
         </div>
         <div class="contact-form-wrap">
           <form class="contact-form" onsubmit="handleSubmit(event)">
             <div class="form-group">
-              <label for="name">Your Name</label>
-              <input type="text" id="name" name="name" placeholder="e.g. Sarah Tan" required>
+              <label for="name" data-i18n="form-name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="e.g. Sarah Tan" data-i18n-ph="placeholder-name" required>
             </div>
             <div class="form-group">
-              <label for="phone">WhatsApp Number</label>
-              <input type="tel" id="phone" name="phone" placeholder="e.g. 9123 4567" required>
+              <label for="phone" data-i18n="form-phone">WhatsApp Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="e.g. 9123 4567" data-i18n-ph="placeholder-phone" required>
             </div>
             <div class="form-group">
-              <label for="event-type">Event Type</label>
+              <label for="event-type" data-i18n="form-event">Event Type</label>
               <select id="event-type" name="event-type" required>
-                <option value="" disabled selected>Select your event</option>
-                <option>Wedding</option>
-                <option>Corporate Event / D&D</option>
-                <option>Product Launch</option>
-                <option>Sports Event</option>
-                <option>Road Show</option>
-                <option>Conference / Seminar</option>
-                <option>Other</option>
+                <option value="" disabled selected data-i18n="form-select">Select your event</option>
+                <option value="Wedding" data-i18n="form-wedding">Wedding</option>
+                <option value="Corporate Event / D&amp;D" data-i18n="form-corporate">Corporate Event / D&amp;D</option>
+                <option value="Product Launch" data-i18n="form-launch">Product Launch</option>
+                <option value="Sports Event" data-i18n="form-sports">Sports Event</option>
+                <option value="Road Show" data-i18n="form-roadshow">Road Show</option>
+                <option value="Conference / Seminar" data-i18n="form-conference">Conference / Seminar</option>
+                <option value="Other" data-i18n="form-other">Other</option>
               </select>
             </div>
             <div class="form-group">
-              <label for="date">Event Date</label>
+              <label for="date" data-i18n="form-date">Event Date</label>
               <input type="date" id="date" name="date">
             </div>
             <div class="form-group">
-              <label for="time">Event Time</label>
+              <label for="time" data-i18n="form-time">Event Time</label>
               <input type="time" id="time" name="time">
             </div>
             <div class="form-group">
-              <label for="message">Tell Me More</label>
-              <textarea id="message" name="message" rows="4" placeholder="Event details, venue, expected guests, language preference..."></textarea>
+              <label for="message" data-i18n="form-more">Tell Me More</label>
+              <textarea id="message" name="message" rows="4" placeholder="Event details, venue, expected guests, language preference..." data-i18n-ph="placeholder-message"></textarea>
             </div>
-            <button type="submit" class="btn btn-gold full-width">Send Inquiry</button>
+            <button type="submit" class="btn btn-gold full-width" data-i18n="form-submit">Send Inquiry</button>
           </form>
         </div>
       </div>
@@ -309,12 +310,12 @@
       <div class="footer-inner">
         <div class="footer-brand">
           <span class="footer-logo">EMCEE <span>SPARK</span></span>
-          <p>Ignite Every Moment</p>
+          <p data-i18n="footer-tagline">Ignite Every Moment</p>
         </div>
         <div class="footer-links">
           <a href="https://www.instagram.com/spark1869" target="_blank">Instagram</a>
-          <a href="https://g.page/r/CRgaKqF1KRUnEAE/review" target="_blank">Google Reviews</a>
-          <a href="#contact">Book Now</a>
+          <a href="https://g.page/r/CRgaKqF1KRUnEAE/review" target="_blank" data-i18n="footer-reviews">Google Reviews</a>
+          <a href="#contact" data-i18n="footer-book">Book Now</a>
         </div>
         <p class="footer-copy">&copy; 2026 Emcee Spark. Singapore.</p>
       </div>
@@ -322,6 +323,108 @@
   </footer>
 
   <script>
+    // ============ TRANSLATIONS ============
+    const i18n = {
+      'nav-about': { en: 'About', cn: '关于' },
+      'nav-services': { en: 'Services', cn: '服务' },
+      'nav-highlights': { en: 'Highlights', cn: '精彩瞬间' },
+      'nav-reviews': { en: 'Reviews', cn: '评价' },
+      'nav-cta': { en: 'Book Spark', cn: '预约Spark' },
+      'hero-tag': { en: 'BILINGUAL EMCEE · EVERY STAGE · EVERY CROWD', cn: '双语主持 · 每个舞台 · 每一次精彩' },
+      'hero-h1': { en: 'Every Event<br>Deserves a <span class="gold">Spark</span>', cn: '每场活动<br>都值得一个<span class="gold">Spark</span>' },
+      'hero-sub': { en: "Weddings. Corporate. Sports. Community. Whatever the stage, I'll bring the energy.", cn: '婚礼 · 企业活动 · 体育赛事 · 社区活动\n不论什么舞台，我都全力以赴。' },
+      'btn-book': { en: 'Book Me Now', cn: '立即预约' },
+      'hero-btn-highlights': { en: 'Watch Highlights', cn: '观看集锦' },
+      'stat-years': { en: 'Years Hosting', cn: '年主持经验' },
+      'stat-events': { en: 'Events', cn: '场活动' },
+      'stat-bilingual': { en: 'Bilingual', cn: '双语' },
+      'scroll': { en: 'Scroll', cn: '下滑' },
+      'trusted-label': { en: 'TRUSTED BY LEADING BRANDS', cn: '受顶尖品牌信赖' },
+      'about-tag': { en: 'ABOUT SPARK', cn: '关于SPARK' },
+      'about-h2': { en: 'Passionate. Energetic.<br><span class="gold">Up For Anything.</span>', cn: '热情 · 活力<br><span class="gold">随时迎接挑战</span>' },
+      'about-p1': { en: "Hey, I'm Spark, a bilingual emcee based in Singapore. Fluent in both English and Mandarin, I bridge cultures, connect generations, and bring every room together.", cn: '嗨，我是Spark，一位驻扎新加坡的双语活动主持人。精通英语和华语，我搭建文化桥梁，连接不同世代，让每一个场合都凝聚在一起。' },
+      'about-p2': { en: "I don't just host events, I live for them. Whether it's a 500-person corporate gala or an intimate wedding dinner, I pour the same passion, energy, and dedication into every single one. No half measures. Ever.", cn: '主持不仅仅是我的工作，更是我的热情所在。无论是500人的企业晚宴还是温馨的婚礼晚宴，我都倾注同样的热情、活力和心血。从不敷衍。' },
+      'about-p3': { en: "I'm not just entertainment, I'm your event partner. I'll put in the work before, during, and after to make sure your event hits every mark.", cn: '我不只是表演者，更是你的活动伙伴。从活动前、活动中到活动后，我都会全力配合，确保你的活动达到每一个目标。' },
+      'trait-bilingual': { en: 'Bilingual EN/华语', cn: '双语 英/华' },
+      'trait-energy': { en: 'High Energy', cn: '活力满满' },
+      'trait-adaptable': { en: 'Adaptable', cn: '应变灵活' },
+      'trait-professional': { en: 'Professional', cn: '专业可靠' },
+      'trait-witty': { en: 'Quick-Witted', cn: '机智幽默' },
+      'trait-audience': { en: 'Audience-Focused', cn: '以观众为本' },
+      'unmute': { en: 'Click to unmute', cn: '点击取消静音' },
+      'mute': { en: 'Click to mute', cn: '点击静音' },
+      'services-tag': { en: 'WHAT I DO', cn: '我的服务' },
+      'services-h2': { en: 'One Emcee. <span class="gold">Every Event.</span>', cn: '一位主持 <span class="gold">全能驾驭</span>' },
+      'svc-weddings': { en: 'WEDDINGS', cn: '婚礼' },
+      'svc-corporate': { en: 'CORPORATE EVENTS', cn: '企业活动' },
+      'svc-sports': { en: 'SPORTS EVENTS', cn: '体育赛事' },
+      'svc-community': { en: 'COMMUNITY', cn: '社区活动' },
+      'svc-roadshows': { en: 'ROAD SHOWS', cn: '路演' },
+      'svc-anyevent': { en: 'ANY EVENT', cn: '其他活动' },
+      'highlights-tag': { en: 'HIGHLIGHTS', cn: '精彩瞬间' },
+      'highlights-h2': { en: 'See Spark <span class="gold">In Action</span>', cn: '看Spark<span class="gold">如何点燃现场</span>' },
+      'highlights-sub': { en: "Don't take my word for it, watch and see.", cn: '眼见为实，一起来看看。' },
+      'btn-instagram': { en: 'See More on Instagram →', cn: '查看更多 Instagram →' },
+      'reviews-tag': { en: 'REVIEWS', cn: '评价' },
+      'reviews-h2': { en: 'What Clients <span class="gold">Say</span>', cn: '客户<span class="gold">怎么说</span>' },
+      'btn-google-reviews': { en: 'Read All Google Reviews →', cn: '查看所有Google评价 →' },
+      'contact-tag': { en: "LET'S WORK TOGETHER", cn: '与我合作' },
+      'contact-h2': { en: 'Ready to <span class="gold">Ignite</span><br>Your Event?', cn: '准备<span class="gold">点燃</span><br>你的活动？' },
+      'contact-desc': { en: "Tell me about your event and I'll get back to you within 24 hours. No commitment, let's just chat first.", cn: '告诉我你的活动详情，我会在24小时内回复你。没有任何负担，先聊聊看。' },
+      'contact-wa': { en: 'WhatsApp Me', cn: 'WhatsApp联系我' },
+      'form-name': { en: 'Your Name', cn: '您的姓名' },
+      'form-phone': { en: 'WhatsApp Number', cn: 'WhatsApp号码' },
+      'form-event': { en: 'Event Type', cn: '活动类型' },
+      'form-select': { en: 'Select your event', cn: '选择活动类型' },
+      'form-wedding': { en: 'Wedding', cn: '婚礼' },
+      'form-corporate': { en: 'Corporate Event / D&D', cn: '企业活动 / 晚宴' },
+      'form-launch': { en: 'Product Launch', cn: '产品发布' },
+      'form-sports': { en: 'Sports Event', cn: '体育赛事' },
+      'form-roadshow': { en: 'Road Show', cn: '路演' },
+      'form-conference': { en: 'Conference / Seminar', cn: '会议 / 研讨会' },
+      'form-other': { en: 'Other', cn: '其他' },
+      'form-date': { en: 'Event Date', cn: '活动日期' },
+      'form-time': { en: 'Event Time', cn: '活动时间' },
+      'form-more': { en: 'Tell Me More', cn: '更多详情' },
+      'form-submit': { en: 'Send Inquiry', cn: '发送询问' },
+      'placeholder-name': { en: 'e.g. Sarah Tan', cn: '如 陈小明' },
+      'placeholder-phone': { en: 'e.g. 9123 4567', cn: '如 9123 4567' },
+      'placeholder-message': { en: 'Event details, venue, expected guests, language preference...', cn: '活动详情、地点、预计宾客人数、语言偏好...' },
+      'footer-tagline': { en: 'Ignite Every Moment', cn: '点燃每一刻' },
+      'footer-reviews': { en: 'Google Reviews', cn: 'Google评价' },
+      'footer-book': { en: 'Book Now', cn: '立即预约' },
+    };
+
+    let currentLang = localStorage.getItem('spark-lang') || 'en';
+
+    function setLanguage(lang) {
+      currentLang = lang;
+      localStorage.setItem('spark-lang', lang);
+      document.documentElement.lang = lang === 'en' ? 'en' : 'zh-CN';
+
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const t = i18n[el.dataset.i18n];
+        if (t) el.textContent = t[lang];
+      });
+
+      document.querySelectorAll('[data-i18n-html]').forEach(el => {
+        const t = i18n[el.dataset.i18nHtml];
+        if (t) el.innerHTML = t[lang];
+      });
+
+      document.querySelectorAll('[data-i18n-ph]').forEach(el => {
+        const t = i18n[el.dataset.i18nPh];
+        if (t) el.placeholder = t[lang];
+      });
+
+      const btn = document.querySelector('.lang-toggle');
+      if (btn) btn.textContent = lang === 'en' ? '中文' : 'EN';
+    }
+
+    function toggleLanguage() {
+      setLanguage(currentLang === 'en' ? 'cn' : 'en');
+    }
+
     // Navbar scroll effect
     window.addEventListener('scroll', () => {
       document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 50);
@@ -359,12 +462,12 @@
       const hint = container.querySelector('.video-sound-hint');
       if (video.muted) {
         video.muted = false;
-        hint.textContent = 'Click to mute';
+        hint.textContent = i18n['mute'][currentLang];
         hint.style.opacity = '0.7';
         setTimeout(() => hint.style.opacity = '0', 2000);
       } else {
         video.muted = true;
-        hint.textContent = 'Click to unmute';
+        hint.textContent = i18n['unmute'][currentLang];
         hint.style.opacity = '1';
       }
     }
@@ -380,7 +483,6 @@
       function update(currentTime) {
         const elapsed = currentTime - startTime;
         const progress = Math.min(elapsed / duration, 1);
-        // Ease out cubic for smooth deceleration
         const eased = 1 - Math.pow(1 - progress, 3);
         const current = Math.floor(startVal + (target - startVal) * eased);
         el.textContent = current + suffix;
@@ -412,16 +514,32 @@
       const time = document.getElementById('time').value;
       const message = document.getElementById('message').value;
 
-      let text = `Hi Spark! I'd like to enquire about your emcee services.%0A%0A`;
-      text += `*Name:* ${name}%0A`;
-      text += `*WhatsApp:* ${phone}%0A`;
-      text += `*Event:* ${eventType}%0A`;
-      if (date) text += `*Date:* ${date}%0A`;
-      if (time) text += `*Time:* ${time}%0A`;
-      if (message) text += `*Details:* ${message}%0A`;
+      let text;
+      if (currentLang === 'cn') {
+        text = `你好Spark！我想咨询你的主持服务。%0A%0A`;
+        text += `*姓名:* ${name}%0A`;
+        text += `*WhatsApp:* ${phone}%0A`;
+        text += `*活动类型:* ${eventType}%0A`;
+        if (date) text += `*日期:* ${date}%0A`;
+        if (time) text += `*时间:* ${time}%0A`;
+        if (message) text += `*详情:* ${message}%0A`;
+      } else {
+        text = `Hi Spark! I'd like to enquire about your emcee services.%0A%0A`;
+        text += `*Name:* ${name}%0A`;
+        text += `*WhatsApp:* ${phone}%0A`;
+        text += `*Event:* ${eventType}%0A`;
+        if (date) text += `*Date:* ${date}%0A`;
+        if (time) text += `*Time:* ${time}%0A`;
+        if (message) text += `*Details:* ${message}%0A`;
+      }
 
       window.open(`https://wa.me/6588910261?text=${text}`, '_blank');
       e.target.reset();
+    }
+
+    // Apply saved language on load
+    if (currentLang !== 'en') {
+      setLanguage(currentLang);
     }
   </script>
 </body>
